@@ -1,0 +1,28 @@
+{
+  "name": "gulp-obfuscate-js-eval-b64encoded",
+  "version": "1.0.0",
+  "description": "Gulp plugin that obfuscates js files by calling eval() on the base64 encoded file contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/baskeboler/gulp-obfuscate-js-eval-b64encoded.git"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "javascript",
+    "obfuscate",
+    "base64",
+    "eval"
+  ],
+  "author": "Victor Gil <baskeboler@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "btoa": "^1.1.2",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  }
+}
